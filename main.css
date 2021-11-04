@@ -1,0 +1,149 @@
+.card {
+    border-radius: 10px;
+    background-color: rgb(89, 86, 226);
+    color: white;
+    height: 300px;
+}
+
+.card-body {
+    margin-top: 5%;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 3.1rem;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.fa-angle-down {
+    size: 5x;
+}
+
+.nav-link {
+    color: black;
+}
+
+
+.navbar-brand{
+    color: black;
+}
+
+.btn-login {
+    background-color: rgb(89, 86, 226);
+    width: 10%;
+}
+
+.trials-btn {
+    background-color: rgb(89, 86, 226);
+    color: white;
+}
+
+.title {
+    width: 80%;
+    height: 70%;
+    padding: 10%;
+}
+
+.title-btn {
+    margin-right: 5%;
+}
+
+.hosting-img {
+    width: 100%;
+    height: 100%;
+}
+
+.circular-img {
+    
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.details {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    padding-left: 15%;
+}
+
+.image1 {
+    margin-right: 3%;
+    float: left;
+}
+
+.text1 {
+    display: inline;
+}
+
+.learn-more {
+    color: rgb(89, 86, 226);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.domain-container {
+    width: 55%;
+    height: 60px;
+    margin-left: 23%;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.domain-input {
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    display: block;
+    padding: 20px;
+    outline: none;
+    border: none;
+}
+
+.domain-btn1 {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(89, 86, 226);
+    color: white;
+}
+
+.domain-btn2 {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    margin-top: 5px;
+    margin-right: 100px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    color: black;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-right: 15px;
+    background-image: url('./arrow.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 3px) center;
+    background-size: 30px;
+}
