@@ -147,3 +147,62 @@ select {
     background-position: calc(100% - 3px) center;
     background-size: 30px;
 }
+
+.plans-div {
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+    background-color: whitesmoke;
+}
+
+.popular-btn {
+    background-color: rgb(55, 221, 180);
+    color: white;
+    width: 100%;
+}
+
+.card-body {
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    border: solid 1px rgb(89, 86, 226);
+    border-radius: 10px;
+}
+
+.plans-cont {
+    margin-top: 0;
+    padding-bottom: 7%;
+}
+
+.plan-btn {
+    height: 5%;
+    width: 95%;
+}
+
+.month-plan {
+    display: inline;
+}
+
+.popular-card {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.pop-sel-btn {
+    background-color: rgb(89, 86, 226);
+    color: white;
+}
+
+.transform-origin1 {
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 83%, 0% 98%);
+}
+
+.transform-origin2 {
+    clip-path: polygon(0 15%, 100% 0%,100% 83%, 0% 98%);
+    background-color: whitesmoke;
+    padding: 10%;
+}
