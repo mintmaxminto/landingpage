@@ -136,6 +136,13 @@ h2 {
     transform: rotate(-30deg);
 }
 
+.host-img {
+    width: 70%;
+    height: 70%;
+    margin-left: 10%;
+    align-items: center;
+}
+
 .details {
     width: 100%;
     height: auto;
@@ -188,6 +195,10 @@ h2 {
     border-radius: 10px;
     background-color: rgb(89, 86, 226);
     color: white;
+}
+
+.navbar-brand {
+    margin-left: 3%;
 }
 
 .domain-btn2 {
@@ -262,9 +273,9 @@ select {
     color: white;
 }
 
-.transform-origin1 {
+/* .transform-origin1 {
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 83%, 0% 98%);
-}
+} */
 
 .transform-origin2 {
     clip-path: polygon(0 15%, 100% 0%,100% 83%, 0% 98%);
@@ -304,7 +315,8 @@ select {
 
 .caret-right {
     position: absolute;
-    right: 26.5%;
+    right: 17%;
+    top: 8%;
     z-index: 1;
     color: rgb(89, 86, 226);
     transform: rotate(-40deg);
@@ -314,7 +326,7 @@ select {
     position: absolute;
     color: rgb(89, 86, 226);
     left: 7.5%;
-    top: 38%;
+    top: 45%;
     transform: rotate(40deg);
     z-index: 1;
 }
@@ -322,8 +334,107 @@ select {
 .caret-bot {
     position: absolute;
     color: rgb(89, 86, 226);
-   right: 26.5%;
-    top: 45%;
+    right: 17%;
+    top: 55%;
     transform: rotate(-40deg);
     z-index: 1;
+}
+
+@media screen and (max-width: 696px) {
+    .btn-resp {
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .trials-btn {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        margin: 3%;
+    }
+
+    .choose-btn {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .start-btn {
+        width: 40%;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .domain-container {
+        width: 100%;
+        margin-left: 0;
+        left: 0;
+    }
+
+    .domain-input {
+        margin-right: 10%;
+    }
+
+   .navbar {
+       text-align: center;
+   }
+
+   .reliable-host {
+       margin-left: 8%;
+   }
+
+   .host-img1 {
+       text-align: center;
+   }
+
+   .transform-origin1 {
+      margin-left: 20%;
+   }
+
+   .transform-origin2 {
+       padding-top: 20%;
+       justify-content: center;
+   }
+
+   .cus-sup {
+       margin-left: 10%;
+   }
+
+   .extra-web {
+       margin-left: 15%;
+   }
+
+   .simp {
+       margin-left: 20%;
+       margin-bottom: 10%;
+   }
+
+   .success-web {
+       margin-left: 5%;
+   }
+
+   .get-cont {
+       margin-right: 5%;
+   }
+
+   .plans-div {
+       margin-left: 5%;
+   }
+
+   .foot-cen {
+      margin-left: 5%;
+   }
+
+  
 }
